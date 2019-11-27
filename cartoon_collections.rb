@@ -22,7 +22,11 @@ def long_planeteer_calls(the_calls)
     end
   end
   
-  return false if the_calls.include? false
+  if the_calls.include? false
+    false
+  else
+    true
+  end
 end
 
 
