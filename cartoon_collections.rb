@@ -24,6 +24,9 @@ def long_planeteer_calls(the_calls)
 
   if collection.include? false
     false
+  else
+    true
+  end
 
 
 
