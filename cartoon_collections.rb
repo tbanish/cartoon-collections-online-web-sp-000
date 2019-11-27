@@ -18,7 +18,7 @@ def long_planeteer_calls(the_calls)
   collection = []
   
   while i < the_calls.length
-    collection << yield(collection[i])
+    collection << yield(the_calls[i])
 
 
 
