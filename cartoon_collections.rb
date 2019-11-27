@@ -16,7 +16,6 @@ end
 
 
 def long_planeteer_calls(the_calls)
-  if block_given?
     i = 0
     collection = []
   
@@ -30,7 +29,6 @@ def long_planeteer_calls(the_calls)
     else
       true
     end
-  end
 end
 
 long_planeteer_calls(the_calls) {|i| i.length > 4}
