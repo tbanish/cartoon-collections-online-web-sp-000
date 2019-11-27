@@ -19,7 +19,6 @@ def long_planeteer_calls(the_calls)
   if block_given?
     i = 0
     collection = []
-    the_calls = []
   
     while i < the_calls.length
       collection << yield(the_calls[i])
@@ -34,7 +33,7 @@ def long_planeteer_calls(the_calls)
   end
 end
 
-long_planeteer_calls(the_calls) {|i| i.length > 4}
+
 
 
 
