@@ -16,24 +16,16 @@ end
 the_calls = []
 
 def long_planeteer_calls(the_calls)
-  if block_given?
-    i = 0
-    collection = []
-  
-    while i < the_calls.length
-      collection << yield(the_calls[i])
-      i += 1
-    end
-
-    if collection.include? false
+  the_calls.map do |call|
+    if call.length <= 4
       false
     else
       true
     end
   end
+  
+  return false if the_calls.include? false
 end
-
-long_planeteer_calls(the_calls) {|i| i.length > 4}
 
 
 
