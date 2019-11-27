@@ -14,7 +14,11 @@ end
 
 
 def long_planeteer_calls(the_calls)
-  the_calls.map do |call|
+  i = 0
+  collection = []
+  
+  while i < the_calls[i]
+    collection << yield()
 
 
 
