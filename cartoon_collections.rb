@@ -13,12 +13,13 @@ end
 
 
 
-the_calls = []
+
 
 def long_planeteer_calls(the_calls)
   if block_given?
     i = 0
     collection = []
+    the_calls = []
   
     while i < the_calls.length
       collection << yield(the_calls[i])
