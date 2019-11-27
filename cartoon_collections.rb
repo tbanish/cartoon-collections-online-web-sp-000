@@ -15,10 +15,10 @@ end
 
 def long_planeteer_calls(the_calls)
   the_calls.map do |call|
-    if call.length > 4
-      true
-    else
+    if call.length <= 4
       false
+    else
+      true
     end
   
     if the_calls.include? false
