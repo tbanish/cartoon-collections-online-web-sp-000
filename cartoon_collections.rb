@@ -13,7 +13,7 @@ end
 
 
 
-
+the_calls = []
 
 def long_planeteer_calls(the_calls)
     i = 0
