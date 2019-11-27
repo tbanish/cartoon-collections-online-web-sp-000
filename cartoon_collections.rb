@@ -14,7 +14,7 @@ end
 
 
 def long_planeteer_calls(the_calls)
-  the_calls.max {|call| return false if call <=4}
+  the_calls.max {|call| return false if call.length <=4}
 end
       
 
