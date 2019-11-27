@@ -14,14 +14,7 @@ end
 
 
 def long_planeteer_calls(the_calls)
-  the_calls.map do |call| 
-    if the_calls call.length < 4
-      return false
-    elsif call.length > 4
-      return true
-    end
-  end
-end
+  the_calls.all? {|call| call <= 4
       
 
 
