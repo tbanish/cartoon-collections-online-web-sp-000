@@ -21,7 +21,7 @@ def long_planeteer_calls(the_calls)
     end
     short_word = false
   end
-  sort_word
+  short_word
 end
       
 
