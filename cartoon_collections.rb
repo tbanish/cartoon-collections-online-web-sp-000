@@ -23,10 +23,11 @@ def long_planeteer_calls(the_calls)
       i += 1
     end
 
-  if collection.include? false
-    false
-  else
-    true
+    if collection.include? false
+      false
+    else
+      true
+    end
   end
 end
 
