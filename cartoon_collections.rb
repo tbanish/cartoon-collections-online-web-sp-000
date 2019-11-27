@@ -29,6 +29,8 @@ def long_planeteer_calls(the_calls)
   end
 end
 
+long_planeteer_calls
+
 
 
 
