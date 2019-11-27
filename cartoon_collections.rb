@@ -13,8 +13,6 @@ end
 
 
 
-the_calls = []
-
 def long_planeteer_calls(the_calls)
   the_calls.map do |call|
     if call.length <= 4
