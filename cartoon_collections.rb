@@ -30,6 +30,8 @@ def find_the_cheese(snacks)
     if snacks.include?(cheese)
       return cheese
     end
+  else
+    nil
   end
   
 end
