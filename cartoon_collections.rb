@@ -33,7 +33,7 @@ def long_planeteer_calls(the_calls)
   end
 end
 
-long_planeteer_calls() {|i| i.length > 4}
+long_planeteer_calls(the_calls) {|i| i.length > 4}
 
 
 
